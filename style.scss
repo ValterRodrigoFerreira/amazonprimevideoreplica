@@ -1,0 +1,284 @@
+@import "./css/_reset.scss";
+
+@font-face {
+  font-family: "Amazonemberlight";
+  src: url("./src/fontes/Amazon\ Ember\ Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Amazonember";
+  src: url("./src/fontes/Amazon\ Ember.ttf") format("truetype");
+}
+
+.prime {
+  width: 1903px;
+  height: 2765px;
+
+  &__header {
+    width: 1903px;
+    height: 80px;
+    background-color: $header-menu-color;
+    display: flex;
+  }
+
+  &__logo {
+    margin-top: 14px;
+    margin-left: 50px;
+  }
+
+  &__menu {
+    margin-left: -3px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+
+  &__menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__menu-list-item {
+    color: $color-text-gray;
+    font-size: 17px;
+    font-family: "Amazonember";
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  &__menu-list-item:not(first-child) {
+    margin-left: 15px;
+  }
+}
+.prime__button-header {
+  width: 249.98px;
+  height: 38.5px;
+  margin-left: 782px;
+  margin-top: 20px;
+}
+
+.prime__button-header-try-it-for-free {
+  color: #f2f4f6e6;
+  font-family: "Amazonember";
+  font-size: 17px;
+  font-weight: 500;
+  background-color: $color-butto-azul;
+  border: none;
+  border-radius: 3px;
+  width: 249.98px;
+  height: 38.5px;
+  cursor: pointer;
+}
+
+.prime__button-header-try-it-for-free:hover {
+  touch-action: manipulation;
+  transition: all 0.2s ease-out;
+}
+
+.prime__main {
+  max-width: 1903px;
+}
+
+.prime__section-one {
+  max-height: 672.69px;
+  background-color: $color-text-black;
+  display: flex;
+}
+
+.prime__collumn-one {
+  margin-left: 99px;
+}
+
+.prime__titlle {
+  color: $color-text-white;
+  font-family: "Amazonemberlight";
+  font-size: 40px;
+  margin-top: 67px;
+  margin-bottom: 40px;
+}
+
+.prime__text {
+  color: #ffffff;
+  font-size: 21px;
+  font-family: "Amazonemberlight";
+  font-weight: lighter;
+  text-align: justify;
+}
+
+.prime__member,
+.prime__assessment {
+  color: $color-text-menu;
+  background-color: $color-text-footer-link;
+  border: none;
+  border-radius: 3px;
+}
+
+.prime__button-wrapper {
+  display: grid;
+  margin-top: 48px;
+}
+
+.prime__member {
+  width: 280px;
+  height: 54.09px;
+  font-family: "Amazonemberlight";
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.prime__div-line-divisor-text {
+  max-width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prime__line {
+  line-height: 5em;
+  color: $color-text-white;
+  margin: 11px 0 25px;
+  display: inline-block;
+}
+
+.prime__divisor-text {
+  color: $color-text-white;
+  display: inline;
+}
+
+.prime__assessment {
+  width: 280px;
+  height: 76.19px;
+  font-family: "Amazonemberlight";
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 14px;
+  cursor: pointer;
+}
+
+.prime__infotext {
+  color: $color-text-white;
+  font-family: "Amazonember";
+  font-size: 15px;
+  padding: 38.5312px 85px 0px 0px;
+}
+
+.prime__collum-two {
+  box-shadow: $color-text-black;
+}
+
+.prime__section-two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prime__collumn-second-one {
+  margin-top: 109px;
+  padding-left: 94px;
+}
+
+.prime__second-titlle {
+  font-size: 44.8px;
+  margin-bottom: 42px;
+  font-family: "AmazonemberLight";
+}
+
+.prime__second-text {
+  font-size: 24px;
+  font-family: "AmazonemberLight";
+}
+
+.prime__collumn-second-two {
+  margin-right: 156px;
+  margin-top: 69px;
+}
+
+.prime__button-collab {
+  border: none;
+  padding: 0px;
+
+  cursor: pointer;
+  width: 254px;
+  height: 178px;
+}
+
+.prime__button-collab:not(first-child) {
+  margin-bottom: 3px;
+  margin-left: 6px;
+}
+
+.prime__collab-image {
+  width: 254px;
+  height: 178px;
+  box-shadow: rgba($color: #000000, $alpha: 1) 3px 3px 3px;
+  margin-bottom: 5px;
+}
+
+.prime__button-collab:hover {
+  background-color: transparent;
+  transform: scale(1.1);
+}
+
+.prime__section-three {
+  margin-top: 65px;
+}
+
+.prime__section-four {
+  margin-top: 65px;
+}
+
+.prime__benefits {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 110px;
+}
+
+.prime__benefits-list {
+  text-align: center;
+}
+
+.prime__benefits-tittle {
+  font-size: 36px;
+  margin-bottom: 27px;
+  font-family: "AmazonemberLight";
+}
+
+.prime__benefits-text {
+  font-size: 21px;
+  font-family: "AmazonemberLight";
+}
+
+.prime__footer {
+  width: 1903px;
+  height: 140px;
+  background-color: #1f1f1f;
+  margin-top: 60px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.prime__footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3px;
+}
+
+.prime__footer-info {
+  padding-bottom: 43px;
+}
+
+.prime__footer-text-copy {
+  color: $color-text-gray;
+  font-family: "Amazonember";
+  font-size: 15px;
+}
+
+.prime__footer-link-text {
+  color: $color-text-footer-link;
+  font-family: "Amazonember";
+  font-size: 15px;
+
+  cursor: pointer;
+}

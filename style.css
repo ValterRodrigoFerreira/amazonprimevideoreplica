@@ -1,0 +1,459 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "Amazonemberlight";
+  src: url("./src/fontes/Amazon Ember Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Amazonember";
+  src: url("./src/fontes/Amazon Ember.ttf") format("truetype");
+}
+
+.prime {
+  width: 1903px;
+  height: 2765px;
+}
+
+.prime__header {
+  width: 1903px;
+  height: 80px;
+  background-color: #1b2530;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.prime__logo {
+  margin-top: 14px;
+  margin-left: 50px;
+}
+
+.prime__menu {
+  margin-left: -3px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.prime__menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.prime__menu-list-item {
+  color: #949494;
+  font-size: 17px;
+  font-family: "Amazonember";
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.prime__menu-list-item:not(first-child) {
+  margin-left: 15px;
+}
+
+.prime__button-header {
+  width: 249.98px;
+  height: 38.5px;
+  margin-left: 782px;
+  margin-top: 20px;
+}
+
+.prime__button-header-try-it-for-free {
+  color: #f2f4f6e6;
+  font-family: "Amazonember";
+  font-size: 17px;
+  font-weight: 500;
+  background-color: #1399de;
+  border: none;
+  border-radius: 3px;
+  width: 249.98px;
+  height: 38.5px;
+  cursor: pointer;
+}
+
+.prime__button-header-try-it-for-free:hover {
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.prime__main {
+  max-width: 1903px;
+}
+
+.prime__section-one {
+  max-height: 672.69px;
+  background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.prime__collumn-one {
+  margin-left: 99px;
+}
+
+.prime__titlle {
+  color: #ffffff;
+  font-family: "Amazonemberlight";
+  font-size: 40px;
+  margin-top: 67px;
+  margin-bottom: 40px;
+}
+
+.prime__text {
+  color: #ffffff;
+  font-size: 21px;
+  font-family: "Amazonemberlight";
+  font-weight: lighter;
+  text-align: justify;
+}
+
+.prime__member,
+.prime__assessment {
+  color: #f2f4f6e6;
+  background-color: #0f79af;
+  border: none;
+  border-radius: 3px;
+}
+
+.prime__button-wrapper {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 48px;
+}
+
+.prime__member {
+  width: 280px;
+  height: 54.09px;
+  font-family: "Amazonemberlight";
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.prime__div-line-divisor-text {
+  max-width: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.prime__line {
+  line-height: 5em;
+  color: #ffffff;
+  margin: 11px 0 25px;
+  display: inline-block;
+}
+
+.prime__divisor-text {
+  color: #ffffff;
+  display: inline;
+}
+
+.prime__assessment {
+  width: 280px;
+  height: 76.19px;
+  font-family: "Amazonemberlight";
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 14px;
+  cursor: pointer;
+}
+
+.prime__infotext {
+  color: #ffffff;
+  font-family: "Amazonember";
+  font-size: 15px;
+  padding: 38.5312px 85px 0px 0px;
+}
+
+.prime__collum-two {
+  -webkit-box-shadow: #000000;
+          box-shadow: #000000;
+}
+
+.prime__section-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.prime__collumn-second-one {
+  margin-top: 109px;
+  padding-left: 94px;
+}
+
+.prime__second-titlle {
+  font-size: 44.8px;
+  margin-bottom: 42px;
+  font-family: "AmazonemberLight";
+}
+
+.prime__second-text {
+  font-size: 24px;
+  font-family: "AmazonemberLight";
+}
+
+.prime__collumn-second-two {
+  margin-right: 156px;
+  margin-top: 69px;
+}
+
+.prime__button-collab {
+  border: none;
+  padding: 0px;
+  cursor: pointer;
+  width: 254px;
+  height: 178px;
+}
+
+.prime__button-collab:not(first-child) {
+  margin-bottom: 3px;
+  margin-left: 6px;
+}
+
+.prime__collab-image {
+  width: 254px;
+  height: 178px;
+  -webkit-box-shadow: black 3px 3px 3px;
+          box-shadow: black 3px 3px 3px;
+  margin-bottom: 5px;
+}
+
+.prime__button-collab:hover {
+  background-color: transparent;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.prime__section-three {
+  margin-top: 65px;
+}
+
+.prime__section-four {
+  margin-top: 65px;
+}
+
+.prime__benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0 110px;
+}
+
+.prime__benefits-list {
+  text-align: center;
+}
+
+.prime__benefits-tittle {
+  font-size: 36px;
+  margin-bottom: 27px;
+  font-family: "AmazonemberLight";
+}
+
+.prime__benefits-text {
+  font-size: 21px;
+  font-family: "AmazonemberLight";
+}
+
+.prime__footer {
+  width: 1903px;
+  height: 140px;
+  background-color: #1f1f1f;
+  margin-top: 60px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.prime__footer-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 3px;
+}
+
+.prime__footer-info {
+  padding-bottom: 43px;
+}
+
+.prime__footer-text-copy {
+  color: #949494;
+  font-family: "Amazonember";
+  font-size: 15px;
+}
+
+.prime__footer-link-text {
+  color: #0f79af;
+  font-family: "Amazonember";
+  font-size: 15px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
