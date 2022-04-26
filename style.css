@@ -144,12 +144,11 @@ table {
 }
 
 .prime {
-  width: 1903px;
-  height: 2765px;
+  max-width: 1920px;
 }
 
 .prime__header {
-  width: 1903px;
+  max-width: 1920px;
   height: 80px;
   background-color: #1b2530;
   display: -webkit-box;
@@ -222,7 +221,7 @@ table {
 }
 
 .prime__main {
-  max-width: 1903px;
+  max-width: 1920px;
 }
 
 .prime__section-one {
@@ -413,7 +412,7 @@ table {
 }
 
 .prime__footer {
-  width: 1903px;
+  max-width: 1920px;
   height: 140px;
   background-color: #1f1f1f;
   margin-top: 60px;
